@@ -1,0 +1,286 @@
+#### `index.html` (Home Page)
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <title>Welcome to Our Daycare</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="programs.html">Programs</a></li>
+                <li><a href="enrollment.html">Enrollment</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="intro">
+            <h1>Welcome to Our Daycare</h1>
+            <p>Your child's home away from home!</p>
+            <img src="images/welcome.jpg" alt="Children playing at daycare" />
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Children's Daycare. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+```
+
+#### `about.html` (About Us Page)
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <title>About Us - Children's Daycare</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="programs.html">Programs</a></li>
+                <li><a href="enrollment.html">Enrollment</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="about">
+            <h1>About Us</h1>
+            <p>We provide a nurturing environment for children.</p>
+            <img src="images/about-us.jpg" alt="Daycare staff with children" />
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Children's Daycare. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+```
+
+#### `programs.html` (Programs Page)
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <title>Our Programs - Children's Daycare</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="programs.html">Programs</a></li>
+                <li><a href="enrollment.html">Enrollment</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="programs">
+            <h1>Our Programs</h1>
+            <p>We offer programs for various age groups.</p>
+            <img src="images/programs.jpg" alt="Children participating in programs" />
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Children's Daycare. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+```
+
+#### `enrollment.html` (Enrollment Page)
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <title>Enrollment - Children's Daycare</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="programs.html">Programs</a></li>
+                <li><a href="enrollment.html">Enrollment</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="enrollment">
+            <h1>Enrollment Information</h1>
+            <p>Learn how to enroll your child in our daycare.</p>
+            <img src="images/enrollment.jpg" alt="Enrollment process" />
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Children's Daycare. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+```
+
+#### `gallery.html` (Gallery Page)
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <title>Gallery - Children's Daycare</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="programs.html">Programs</a></li>
+                <li><a href="enrollment.html">Enrollment</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="gallery">
+            <h1>Gallery</h1>
+            <p>Explore our wonderful daycare moments!</p>
+            <img src="images/gallery.jpg" alt="Children's activities in the daycare" />
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Children's Daycare. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+```
+
+#### `contact.html` (Contact Page)
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <title>Contact Us - Children's Daycare</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="programs.html">Programs</a></li>
+                <li><a href="enrollment.html">Enrollment</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="contact">
+            <h1>Contact Us</h1>
+            <p>For inquiries, please reach out to us!</p>
+            <img src="images/contact.jpg" alt="Contact us" />
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Children's Daycare. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+```
+
+
+```css
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f5f8;
+}
+
+header {
+    background-color: #4a90e2;
+    color: white;
+    padding: 15px 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 20px;
+    text-align: center;
+}
+
+section {
+    margin: 20px 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #4a90e2;
+    color: white;
+}
