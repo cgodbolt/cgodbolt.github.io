@@ -1,0 +1,362 @@
+/daycare-website
+
+|-- index.html
+
+|-- about.html
+
+|-- contact.html
+
+|-- styles.css
+
+|-- images/
+
+    |-- daycare1.jpg
+
+    |-- daycare2.jpg
+
+    |-- daycare3.jpg
+
+```
+
+
+
+### CSS (styles.css)
+
+```css
+
+/* Importing Google Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+
+body {
+
+    font-family: 'Roboto', sans-serif;
+
+    margin: 0;
+
+    padding: 0;
+
+    display: grid;
+
+    grid-template-areas:
+
+        "header header"
+
+        "nav main"
+
+        "footer footer";
+
+    grid-template-columns: 1fr 3fr;
+
+    grid-template-rows: auto 1fr auto;
+
+}
+
+
+
+header {
+
+    grid-area: header;
+
+    background: #4CAF50;
+
+    color: white;
+
+    padding: 20px;
+
+    text-align: center;
+
+}
+
+
+
+nav {
+
+    grid-area: nav;
+
+    background: #f2f2f2;
+
+    padding: 15px;
+
+}
+
+
+
+nav ul {
+
+    list-style-type: none;
+
+    padding: 0;
+
+}
+
+
+
+nav ul li {
+
+    margin: 10px 0;
+
+}
+
+
+
+main {
+
+    grid-area: main;
+
+    padding: 15px;
+
+}
+
+
+
+footer {
+
+    grid-area: footer;
+
+    background: #4CAF50;
+
+    color: white;
+
+    text-align: center;
+
+    padding: 10px;
+
+}
+
+
+
+a {
+
+    color: #4CAF50;
+
+    text-decoration: none;
+
+}
+
+
+
+a:hover {
+
+    text-decoration: underline;
+
+}
+
+
+
+img {
+
+    max-width: 100%;
+
+    height: auto;
+
+}
+
+```
+
+
+
+### Home Page (index.html)
+
+```html
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Children's Daycare</title>
+
+</head>
+
+<body>
+
+    <header>
+
+        <h1>Welcome to Our Daycare</h1>
+
+    </header>
+
+    <nav>
+
+        <ul>
+
+            <li><a href="index.html">Home</a></li>
+
+            <li><a href="about.html">About Us</a></li>
+
+            <li><a href="contact.html">Contact</a></li>
+
+        </ul>
+
+    </nav>
+
+    <main>
+
+        <h2>Our Mission</h2>
+
+        <p>Providing a safe, fun, and nurturing environment.</p>
+
+        <img src="images/daycare1.jpg" alt="Children playing in daycare">
+
+        <h2>Activities</h2>
+
+        <p>Engaging activities to foster learning and creativity.</p>
+
+    </main>
+
+    <footer>
+
+        <p>&copy; 2023 Children's Daycare</p>
+
+    </footer>
+
+</body>
+
+</html>
+
+```
+
+
+
+### About Us Page (about.html)
+
+```html
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="styles.css">
+
+    <title>About Us - Children's Daycare</title>
+
+</head>
+
+<body>
+
+    <header>
+
+        <h1>About Us</h1>
+
+    </header>
+
+    <nav>
+
+        <ul>
+
+            <li><a href="index.html">Home</a></li>
+
+            <li><a href="about.html">About Us</a></li>
+
+            <li><a href="contact.html">Contact</a></li>
+
+        </ul>
+
+    </nav>
+
+    <main>
+
+        <h2>Our Story</h2>
+
+        <p>Providing quality daycare since 2010.</p>
+
+        <img src="images/daycare2.jpg" alt="Our daycare building">
+
+    </main>
+
+    <footer>
+
+        <p>&copy; 2023 Children's Daycare</p>
+
+    </footer>
+
+</body>
+
+</html>
+
+```
+
+
+
+### Contact Page (contact.html)
+
+```html
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Contact Us - Children's Daycare</title>
+
+</head>
+
+<body>
+
+    <header>
+
+        <h1>Contact Us</h1>
+
+    </header>
+
+    <nav>
+
+        <ul>
+
+            <li><a href="index.html">Home</a></li>
+
+            <li><a href="about.html">About Us</a></li>
+
+            <li><a href="contact.html">Contact</a></li>
+
+        </ul>
+
+    </nav>
+
+    <main>
+
+        <h2>Get in Touch</h2>
+
+        <p>Email: info@childrensdaycare.com</p>
+
+        <p>Phone: (123) 456-7890</p>
+
+        <img src="images/daycare3.jpg" alt="Children learning in daycare">
+
+    </main>
+
+    <footer>
+
+        <p>&copy; 2023 Children's Daycare</p>
+
+    </footer>
+
+</body>
+
+</html>
+
+```
+
