@@ -1,0 +1,56 @@
+
+```css
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    color: #333;
+}
+
+header {
+    background-color: pink;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+h1, h2 {
+    color: #d5006d; /* A darker pink for headings */
+}
+
+main {
+    padding: 20px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+.responsive {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: pink;
+    text-align: center;
+    padding: 10px;
+}
+p
