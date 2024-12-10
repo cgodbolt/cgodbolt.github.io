@@ -1,4 +1,0 @@
-document.addEventListener("DOMContentLoaded", function() {
-    console.log("Welcome to the Children's Daycare Center!");
-});
-```
